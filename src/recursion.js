@@ -36,6 +36,15 @@ const nFactorial = (n) => {
 
   // // version 2.1 √
   // return (n === 1) ? n : n * nFactorial(n - 1);
+
+  // // version 3 non-recursive
+  // function nFactorial (num) {
+  //   let factorial = 1;
+  //   for (let i = 1; i <= num; i++) {
+  //     factorial *= i;
+  //   }
+  //   return factorial;
+  // }
 };
 
 const checkMatchingLeaves = (obj) => {
